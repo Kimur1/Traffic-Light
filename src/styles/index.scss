@@ -1,13 +1,50 @@
 @import "~bootstrap/scss/bootstrap.scss";
+.trafficlight {
+    background: black;
+    height: 400px;
+    width: 150px;
+    margin: auto;
+    justify-content: center;
+}
 
-/* 
+.light-off {
+    border-radius: 50%;
+    margin: auto;
+    justify-content: center;
+    background-color: grey;
+    border: 2px solid white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.green-selected {
+    background-color: green;
+    margin: auto;
+    border: 2px solid black;
+    justify-content: center;
+    box-shadow: inset 10px 10px 40px 10px lightgreen;
+    border-radius: 50%;
+}
 
-*/
+.yellow-selected {
+    background-color: yellow;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: inset 10px 10px 40px 10px lightyellow;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.red-seleted {
+    background-color: red;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: inset 10px 10px 40px 10px lightcoral;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.trafficlight div {
+    margin: auto;
+    height: 130px;
+    width: 140px;
+    justify-content: center;
+}
